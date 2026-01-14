@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>TechScope | مقارنة الهواتف الذكية</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TechScope أفضل موقع عربي لمقارنة الهواتف ومعرفة المميزات والعيوب والتقييمات">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+ <h1>📱 TechScope</h1>
+ <p>اختيارك الذكي يبدأ من هنا</p>
+</header>
+
+<section>
+<h2>🔍 البحث والفلترة</h2>
+<div class="controls">
+ <input type="text" id="search" placeholder="ابحث عن هاتف...">
+ <select id="filter">
+  <option value="all">الكل</option>
+  <option value="android">أندرويد</option>
+  <option value="ios">آيفون</option>
+ </select>
+</div>
+
+<div class="grid" id="phones"></div>
+</section>
+
+<div class="ads">📢 إعلان Google AdSense</div>
+
+<section>
+<h2>🔄 المقارنة الذكية</h2>
+<div class="compare-box">
+ <select id="c1"></select>
+ <select id="c2"></select>
+ <button onclick="compare()">قارن الآن</button>
+ <div id="result" style="margin-top:20px"></div>
+</div>
+</section>
+
+<footer>
+© 2026 TechScope – منصة احترافية لمقارنة الهواتف
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
